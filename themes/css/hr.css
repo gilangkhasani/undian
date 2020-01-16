@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Dosis';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Dosis Regular'), local('Dosis-Regular'), url(./../fonts/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+html,body{
+	/*font-family: 'Dosis', sans-serif;*/
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+.hr-navbar{
+	margin-left: 65px !important;
+	height: 27px !important;
+	border-left: 1px solid #E7E7E7;
+	padding: 0 0 0 5px !important;
+	font-size: 25px;
+	background-color: #FFFFFF;
+}
+
+.hr-navbar-header{
+	background: #FFFFFF;
+	height: 80px;
+	/*position: absolute;*/
+	width: 80px;
+	/*left: 0px;*/
+}
+.hr-navbar .nav>li>a{
+	padding: 0;
+}
+
+.hr-navbar .nav>li{
+	margin: 0 5px;
+}
+
+.hr-title-page{
+	padding: 10px;
+	min-width: 100px;
+	background: #FFA500;
+	float: right;
+	margin-right: -15px;
+	border-radius: 10px 0 0 10px;
+	position: relative;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.hr-title-user{
+	padding: 10px 20px 10px 10px;
+	min-width: 100px;
+	background: #2B579A;
+	float: right;
+	margin-right: -15px;
+	border-radius: 10px 0 0 10px;
+	color: #FFFFFF;
+	font-size:13px;
+}
+
+.hr-container-content{
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 1.42857143;
+	word-break: break-all;
+	word-wrap: break-word;
+	color: #333;
+	background-color: #f5f5f5;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.hr-container-content-noborder{
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 1.42857143;
+	word-break: break-all;
+	word-wrap: break-word;
+	border-radius: 4px;
+}
+
+.align-right{
+	text-align: right !important;
+}
+
+.align-center{
+	text-align: center !important;
+}
+
+.hr-table-kk{
+	border: 2px solid #000000;
+	width: 100%;
+}
+.hr-table-kk thead tr th{
+	font-weight: bold;
+	padding: 3px;
+	text-align: center;	
+}
+
+.hr-table-kk tbody tr td, .hr-table-kk thead tr th{
+	border: 1px solid #000;
+	padding: 3px;
+}
+
+.hr-inline{
+	display: inline;
+}
+
+.hr-float-left{
+	float: left;
+}
+.hr-form-filter{
+	width: auto;
+	display: inline;
+}
+
+.hr-lbl-filter{
+	margin-right: 10px;
+	display: inline-table;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	border-radius: 5px;
+	padding: 5px 0;
+}
+.hr-lbl-filter .hr-lbl-filter-title{
+	display: block;
+	font-size: 11px;
+	text-align: center;
+}
+.hr-lbl-filter .hr-lbl-filter-content{
+
+}
+
+.hr-tb-pad-5 tr td, .hr-tb-pad-5 tr th{
+	padding: 5px !important;
+}
+
+.hr-td-color-blue{
+	background-color: #B4DFF2;
+}
